@@ -1,0 +1,191 @@
+﻿<html>
+
+<head>
+    <title>统一建模语言理论测试</title>
+    <style type="text/css">
+        body {
+            border-style: solid;
+            border-color:#d14;
+            display:block;
+            overflow-x:auto;
+            padding: 5%;
+            padding-top: 1em;
+            margin:10%;
+            margin-top: 5em;
+            font-weight:bold;
+        }
+        
+        h1 {text-align:center}
+        
+        .info{
+            border: 1px solid #dddddd;
+            margin:10px;
+            height:50px;
+            line-height: 50px;
+        }
+        
+        .info-detail{
+            float: left;
+            display: block;
+            width: 30%;
+            margin-left: 2.5%;
+        }
+        
+        .examination{
+            border: 1px solid #dddddd;
+            margin:10px;
+        }
+        
+        h2 {
+            border-bottom: 1px solid #dddddd;
+            height:30px;
+            padding:10px;
+            margin: 0px;
+            background: #eeeeee;
+        }
+        
+        .question {
+            padding:10px;
+            margin: 0px;
+        }
+        
+        ol{
+            margin-left:1em;
+        }
+        
+        ul{
+            list-style-type:none;
+            margin:0px;
+            padding:0px;
+        }
+        
+        .color-green{
+            color: green;
+         }
+        
+        .color-red{
+            color: red;
+        }
+        
+        .text{
+            width:100%;/*自动适应父布局宽度*/
+            overflow:auto;
+            word-break:break-all;
+            height:30%;
+        }
+        
+        .submit {text-align:center}
+    </style>
+</head>
+
+<body>
+    <font style="font-family:宋体;">
+        <h1>统一建模语言理论测试</h1>
+
+        <div class="info">
+            <span class="info-detail">考试科目：统一建模语言</span>
+            <span class="info-detail">时间：100分钟</span>
+            <span class="info-detail">得分：100分</span>
+        </div>
+
+        <div class="info">
+            <span class="info-detail">班级：<input type="text" name="class" value=""></span>
+            <span class="info-detail">学号：<input type="text" name="studentnumber" value=""></span>
+            <span class="info-detail">姓名：<input type="text" name="name" value=""></span>
+        </div>
+
+        <div class="examination">
+            <h2>一、填空题（每空5分，共20分）</h2>
+            <div class="question">
+                <ol>
+                    <li>UML的中文全称是：
+                        <br>
+                        <span><input type="text" value=""></span>
+                        <li>对象最突出的特征是：
+                            <br>
+                            <span><input type="text"  value=""></span>
+                            <span><input type="text" value=""></span>
+                            <span><input type="text"  value=""></span>
+                </ol>
+            </div>
+        </div>
+
+        <div class="examination">
+            <h2>二、选择题（每题10分，共20分）</h2>
+            <div class="question">
+                <ol>
+                    <li>UML与软件工程的关系是：
+                        <ul>
+                            <li><input type="radio">(&#65)UML就是软件工程
+                                <li><input type="radio">(&#66)UML参与到软件工程中软件开发过程的几个阶段
+                                    <li><input type="radio">(&#67)UML与软件工程无关
+                                        <li><input type="radio">(&#68)UML是软件工程的一部分
+                        </ul>
+                        <li>Java语言支持：
+                            <ul>
+                                <li><input type="radio">(&#65)单继承
+                                    <li><input type="radio">(&#66)多继承
+                                        <li><input type="radio">(&#67)单继承和多继承都支持
+                                            <li><input type="radio">(&#68)单继承和多继承都不支持
+                            </ul>
+                </ol>
+            </div>
+        </div>
+
+        <div class="examination">
+            <h2>三、多选题（每空题10分，共20分）</h2>
+            <div class="question">
+                <ol>
+                    <li>用例的粒度分为以下哪三种:
+                        <ul>
+                            <li><input type="checkbox">(&#65)概述级
+                                <li><input type="checkbox">(&#66)需求级
+                                    <li><input type="checkbox">(&#67)用户目标级
+                                        <li><input type="checkbox">(&#68)子功能级
+                        </ul>
+                        <li>类图由以下哪三部分组成：
+                            <ul>
+                                <li><input type="checkbox">(&#65)名称(Name)
+                                    <li><input type="checkbox">(&#66)属性(Attribute)
+                                        <li><input type="checkbox">(&#67)操作(Operation)
+                                            <li><input type="checkbox">(&#68)方法(Function)
+                                                <ul>
+                                                    <ol>
+            </div>
+        </div>
+
+        <div class="examination">
+            <h2>四、判断题（每题10分，共20分）</h2>
+            <div class="question">
+                <ol>
+                    <li>用例图只是用于和客户交流和沟通的，用于确定需求。
+                        <input type="radio"><span class="color-green">&#8730;</span>
+                        <input type="radio"><span class="color-red">&#967;</span>
+                        <br>
+                        <li>在状态图中，终止状态在一个状态图中允许有任意多个：
+                            <input type="radio"><span class="color-green">&#8730;</span>
+                            <input type="radio"><span class="color-red">&#967;</span>
+            </div>
+        </div>
+        <div class="examination">
+            <h2>五、简答题（每题20分，共20分）</h2>
+            <div class="question">
+                <ol>
+                    <li>简述什么是模型以及模型的表现形式？
+                        <ul>
+                            <li><textarea class="text"></textarea>
+                        </ul>
+                </ol>
+            </div>
+        </div>
+
+        </div>
+        <div class="submit">
+            <input type="submit" value="计算分数">
+        </div>
+        </div>
+
+    </font>
+</body>
+
+</html>
